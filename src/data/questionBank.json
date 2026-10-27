@@ -1,0 +1,213 @@
+{
+  "game": [
+    {
+      "id": "pp-holiday", "roundType": "partner_prediction", "category": "travel_adventure",
+      "prompt": "Your partner wins a free holiday tomorrow. Where are they heading?",
+      "promptSelf": "You win a free holiday tomorrow. Where are you heading?",
+      "answerFormat": "multiple_choice", "options": ["Beach & cocktails", "City break", "Mountains & hiking", "Road trip, no plan"],
+      "matchingRule": "exact", "discussionPrompt": "Predictors: what gave it away? Or what threw you off?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-sleep", "roundType": "partner_prediction", "category": "everyday_habits",
+      "prompt": "It's 2am and your partner can't sleep. What are they doing?",
+      "promptSelf": "It's 2am and you can't sleep. What are you doing?",
+      "answerFormat": "multiple_choice", "options": ["Scrolling the phone", "Reading", "Raiding the fridge", "Lying there overthinking"],
+      "matchingRule": "exact", "discussionPrompt": "What's the most 2am thing either of you has ever done?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-500", "roundType": "partner_prediction", "category": "money_priorities",
+      "prompt": "You get an unexpected £500 to spend together this weekend. What would your partner choose to do with it?",
+      "promptSelf": "You get an unexpected £500 to spend together this weekend. What would you choose to do with it?",
+      "answerFormat": "short_text", "options": [],
+      "matchingRule": "normalised_or_confirm", "discussionPrompt": "Group vote: whose £500 plan sounds best?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-overpack", "roundType": "partner_prediction", "category": "travel_adventure",
+      "prompt": "What does your partner always over-pack for a trip?",
+      "promptSelf": "What do you always over-pack for a trip?",
+      "answerFormat": "multiple_choice", "options": ["Shoes", "Gadgets & chargers", "Snacks", "'Just in case' outfits"],
+      "matchingRule": "exact", "discussionPrompt": "Be honest: what's in your suitcase right now that you haven't touched?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-cuisine", "roundType": "partner_prediction", "category": "preferences",
+      "prompt": "Your partner can only eat one cuisine for a whole year. Which one?",
+      "promptSelf": "You can only eat one cuisine for a whole year. Which one?",
+      "answerFormat": "multiple_choice", "options": ["Italian", "Indian", "Mexican", "Japanese"],
+      "matchingRule": "exact", "discussionPrompt": "Which cuisine would the whole table fight over?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-keep-one", "roundType": "partner_prediction", "category": "money_priorities",
+      "prompt": "Your partner can only keep one of these for a year. Which do they choose?",
+      "promptSelf": "You can only keep one of these for a year. Which do you choose?",
+      "answerFormat": "multiple_choice", "options": ["Eating out", "Travelling", "Buying new things"],
+      "matchingRule": "exact", "discussionPrompt": "Which would be the hardest for you to give up?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-habit", "roundType": "partner_prediction", "category": "everyday_habits",
+      "prompt": "What would your partner say is their most predictable habit?",
+      "promptSelf": "What is your most predictable habit?",
+      "answerFormat": "short_text", "options": [],
+      "matchingRule": "normalised_or_confirm", "discussionPrompt": "Does the rest of the group agree? Name another one!",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-trip-style", "roundType": "partner_prediction", "category": "would_you_rather",
+      "prompt": "How would your partner prefer a trip to be planned?",
+      "promptSelf": "How would you prefer a trip to be planned?",
+      "answerFormat": "multiple_choice", "options": ["Every hour planned", "A rough outline", "Total chaos, wing it"],
+      "matchingRule": "exact", "discussionPrompt": "Who planned this holiday — and how did that go?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-abroad", "roundType": "partner_prediction", "category": "hypotheticals",
+      "prompt": "You both have to move abroad next month. Which country would your partner pick first?",
+      "promptSelf": "You both have to move abroad next month. Which country would you pick first?",
+      "answerFormat": "short_text", "options": [],
+      "matchingRule": "normalised_or_confirm", "discussionPrompt": "What's the first thing you'd miss about home?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-free-day", "roundType": "partner_prediction", "category": "preferences",
+      "prompt": "A totally free day with zero responsibilities. How does your partner want to spend it?",
+      "promptSelf": "A totally free day with zero responsibilities. How do you want to spend it?",
+      "answerFormat": "multiple_choice", "options": ["Lie-in & lazy brunch", "A big adventure", "Seeing friends", "Solo me-time"],
+      "matchingRule": "exact", "discussionPrompt": "Could you two agree on a shared free day? Plan it now!",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "pp-annoyance", "roundType": "partner_prediction", "category": "everyday_habits",
+      "prompt": "Which small everyday annoyance winds your partner up the most?",
+      "promptSelf": "Which small everyday annoyance winds you up the most?",
+      "answerFormat": "multiple_choice", "options": ["Someone running late", "A messy kitchen", "Slow Wi-Fi", "Loud chewing"],
+      "matchingRule": "exact", "discussionPrompt": "Tell us the last time it happened...",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "sa-stranger", "roundType": "same_answer", "category": "relationship_lore",
+      "prompt": "Who's more likely to start chatting to a total stranger on holiday?",
+      "promptSelf": null, "answerFormat": "who", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "Best holiday stranger story — go!",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "sa-flight", "roundType": "same_answer", "category": "travel_adventure",
+      "prompt": "Your flight is cancelled and the whole trip needs rebuilding. Who copes better?",
+      "promptSelf": null, "answerFormat": "who", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "What's your worst travel disaster together?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "sa-flatpack", "roundType": "same_answer", "category": "friendly_debates",
+      "prompt": "Out of 5, how good are you two at building flat-pack furniture together?",
+      "promptSelf": null, "answerFormat": "scale_1_5", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "Who reads the instructions and who 'doesn't need them'?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "sa-date-night", "roundType": "same_answer", "category": "preferences",
+      "prompt": "The perfect night in for the two of you is...",
+      "promptSelf": null, "answerFormat": "multiple_choice", "options": ["Takeaway & a film", "Cooking something fancy", "Board games", "Early night, no shame"],
+      "matchingRule": "exact", "discussionPrompt": "Which couple has the most chaotic night in?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "sa-camping", "roundType": "same_answer", "category": "hypotheticals",
+      "prompt": "Would you two survive a week-long camping trip with no phones?",
+      "promptSelf": null, "answerFormat": "yes_no", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "Which of you would crack first — and what would you miss?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "sa-competition", "roundType": "same_answer", "category": "would_you_rather",
+      "prompt": "You enter a couples competition. Which event do you pick?",
+      "promptSelf": null, "answerFormat": "multiple_choice", "options": ["Physical challenge", "Pub quiz", "Creative task", "Strategy game"],
+      "matchingRule": "exact", "discussionPrompt": "Which couple at this table would win each event?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "tf-pineapple", "roundType": "true_false_match", "category": "friendly_debates",
+      "prompt": "Pineapple belongs on pizza.",
+      "promptSelf": null, "answerFormat": "true_false", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "Pineapple people: make your case!",
+      "sensitivity": "general", "statementType": "subjective", "correctAnswer": null
+    },
+    {
+      "id": "tf-flamingo", "roundType": "true_false_match", "category": "quick_trivia",
+      "prompt": "A group of flamingos is called a 'flamboyance'.",
+      "promptSelf": null, "answerFormat": "true_false", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "What should a group of your friends be called?",
+      "sensitivity": "general", "statementType": "objective", "correctAnswer": "True"
+    },
+    {
+      "id": "tf-planning", "roundType": "true_false_match", "category": "travel_adventure",
+      "prompt": "The best part of a holiday is the planning beforehand.",
+      "promptSelf": null, "answerFormat": "true_false", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "Planners vs. go-with-the-flow: who's having more fun right now?",
+      "sensitivity": "general", "statementType": "subjective", "correctAnswer": null
+    },
+    {
+      "id": "tf-banana", "roundType": "true_false_match", "category": "quick_trivia",
+      "prompt": "Bananas are technically berries, but strawberries aren't.",
+      "promptSelf": null, "answerFormat": "true_false", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "What other 'fact' did you believe for way too long?",
+      "sensitivity": "general", "statementType": "objective", "correctAnswer": "True"
+    },
+    {
+      "id": "tf-recline", "roundType": "true_false_match", "category": "friendly_debates",
+      "prompt": "It's fine to recline your seat on a short flight.",
+      "promptSelf": null, "answerFormat": "true_false", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "Recliners, explain yourselves!",
+      "sensitivity": "general", "statementType": "subjective", "correctAnswer": null
+    },
+    {
+      "id": "tf-honey", "roundType": "true_false_match", "category": "quick_trivia",
+      "prompt": "Honey goes off within a year if you leave it in the cupboard.",
+      "promptSelf": null, "answerFormat": "true_false", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "What's the oldest thing in your kitchen cupboard?",
+      "sensitivity": "general", "statementType": "objective", "correctAnswer": "False"
+    },
+    {
+      "id": "dd-overrated", "roundType": "discussion", "category": "friendly_debates",
+      "prompt": "What's the most overrated holiday activity?",
+      "promptSelf": null, "answerFormat": "multiple_choice", "options": ["Sunbathing for hours", "Museum marathons", "Fancy dinners", "Organised excursions"],
+      "matchingRule": "none", "discussionPrompt": "Each couple: defend your pick in one sentence!",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "dd-group-rule", "roundType": "discussion", "category": "friendly_debates",
+      "prompt": "The one golden rule for a group holiday should be...",
+      "promptSelf": null, "answerFormat": "multiple_choice", "options": ["One shared kitty", "Nobody talks about work", "Phones away at dinner", "Everyone gets one veto"],
+      "matchingRule": "none", "discussionPrompt": "Should we adopt the winning rule for the rest of this trip?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    }
+  ],
+  "tiebreak": [
+    {
+      "id": "tb-first-love", "roundType": "same_answer", "category": "relationship_lore",
+      "prompt": "Who said 'I love you' first?",
+      "promptSelf": null, "answerFormat": "who", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "Where were you when it happened?",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "tb-driver", "roundType": "same_answer", "category": "friendly_debates",
+      "prompt": "Who is the better driver?",
+      "promptSelf": null, "answerFormat": "who", "options": [],
+      "matchingRule": "exact", "discussionPrompt": "Evidence, please.",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    },
+    {
+      "id": "tb-dream-home", "roundType": "same_answer", "category": "future_predictions",
+      "prompt": "The one thing your dream home absolutely must have is...",
+      "promptSelf": null, "answerFormat": "multiple_choice", "options": ["The perfect location", "Loads of space", "Bags of character"],
+      "matchingRule": "exact", "discussionPrompt": "Describe the dream home in three words.",
+      "sensitivity": "general", "statementType": null, "correctAnswer": null
+    }
+  ]
+}
